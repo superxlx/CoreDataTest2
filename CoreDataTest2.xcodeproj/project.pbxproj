@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A68C8781AE259170058F645 /* 斯派克.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A68C8771AE259170058F645 /* 斯派克.jpg */; };
+		2A68C87A1AE25BB60058F645 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68C8791AE25BB60058F645 /* ShowViewController.swift */; };
+		2A68C87C1AE279760058F645 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A68C87B1AE279760058F645 /* Test.swift */; };
 		2AF6A22E1AE021460039A9E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6A22D1AE021460039A9E2 /* AppDelegate.swift */; };
 		2AF6A2311AE021460039A9E2 /* CoreDataTest2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6A22F1AE021460039A9E2 /* CoreDataTest2.xcdatamodeld */; };
 		2AF6A2331AE021460039A9E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF6A2321AE021460039A9E2 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A68C8771AE259170058F645 /* 斯派克.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "斯派克.jpg"; sourceTree = "<group>"; };
+		2A68C8791AE25BB60058F645 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		2A68C87B1AE279760058F645 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Test.swift; path = ../Test.swift; sourceTree = "<group>"; };
 		2AF6A2281AE021460039A9E2 /* CoreDataTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF6A22C1AE021460039A9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AF6A22D1AE021460039A9E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +87,10 @@
 			children = (
 				2AF6A22D1AE021460039A9E2 /* AppDelegate.swift */,
 				2AF6A2321AE021460039A9E2 /* ViewController.swift */,
+				2A68C87B1AE279760058F645 /* Test.swift */,
+				2A68C8791AE25BB60058F645 /* ShowViewController.swift */,
 				2AF6A2341AE021460039A9E2 /* Main.storyboard */,
+				2A68C8771AE259170058F645 /* 斯派克.jpg */,
 				2AF6A2371AE021460039A9E2 /* Images.xcassets */,
 				2AF6A2391AE021460039A9E2 /* LaunchScreen.xib */,
 				2AF6A22F1AE021460039A9E2 /* CoreDataTest2.xcdatamodeld */,
@@ -197,6 +206,7 @@
 			files = (
 				2AF6A2361AE021460039A9E2 /* Main.storyboard in Resources */,
 				2AF6A23B1AE021460039A9E2 /* LaunchScreen.xib in Resources */,
+				2A68C8781AE259170058F645 /* 斯派克.jpg in Resources */,
 				2AF6A2381AE021460039A9E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +227,9 @@
 			files = (
 				2AF6A2331AE021460039A9E2 /* ViewController.swift in Sources */,
 				2AF6A22E1AE021460039A9E2 /* AppDelegate.swift in Sources */,
+				2A68C87C1AE279760058F645 /* Test.swift in Sources */,
 				2AF6A2311AE021460039A9E2 /* CoreDataTest2.xcdatamodeld in Sources */,
+				2A68C87A1AE25BB60058F645 /* ShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,7 @@
 				2AF6A24C1AE021460039A9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AF6A24D1AE021460039A9E2 /* Build configuration list for PBXNativeTarget "CoreDataTest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				2AF6A24F1AE021460039A9E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
